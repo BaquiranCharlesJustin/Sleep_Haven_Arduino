@@ -22,10 +22,6 @@ DFRobot_MAX30102 particleSensor;
 const unsigned long timeUpdateInterval = 5000;
 unsigned long lastTimeUpdateMillis = 0;
 
-const char* ntpServer = "asia.pool.ntp.org";
-const long gmtOffset_sec = 28800;
-const int daylightOffset_sec = 0;
-
 unsigned long sendDataPrevMillis = 0;
 bool signupOK = false;
 
